@@ -7,12 +7,12 @@ public class E2E01_LocalVariableFinal_BranchesLoops {
         Integer safeValue = 10;
         Integer branchValue = 1;
         Integer loopValue = 0;
+        // Initial value for catchValue
         Integer catchValue = 5;
 
         if (useAlt) {
             branchValue = 20;
         }
-
         for (Integer index = 0; index < 3; index++) {
             loopValue += index;
         }
@@ -28,3 +28,4 @@ public class E2E01_LocalVariableFinal_BranchesLoops {
         return safeValue + branchValue + loopValue + catchValue;
     }
 }
+
