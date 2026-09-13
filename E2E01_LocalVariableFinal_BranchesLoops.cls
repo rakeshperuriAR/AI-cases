@@ -3,6 +3,9 @@
  * Edge case: only safeValue should become final.
  */
 public class E2E01_LocalVariableFinal_BranchesLoops {
+    /**
+     * Calculates a result based on the useAlt flag.
+     */
     public Integer calculate(Boolean useAlt) {
         Integer safeValue = 10;
         Integer branchValue = 1;
@@ -28,3 +31,4 @@ public class E2E01_LocalVariableFinal_BranchesLoops {
         return safeValue + branchValue + loopValue + catchValue;
     }
 }
+
