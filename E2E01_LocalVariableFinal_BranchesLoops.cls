@@ -4,7 +4,7 @@
  */
 public class E2E01_LocalVariableFinal_BranchesLoops {
     public Integer calculate(Boolean useAlt) {
-        Integer safeValue = 10;
+        final Integer safeValue = 10;
         Integer branchValue = 1;
         Integer loopValue = 0;
         Integer catchValue = 5;
@@ -28,3 +28,4 @@ public class E2E01_LocalVariableFinal_BranchesLoops {
         return safeValue + branchValue + loopValue + catchValue;
     }
 }
+
